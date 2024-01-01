@@ -44,7 +44,6 @@ class MyMainForm(QMainWindow, Ui_MainWindow):
         spectralPth = text_edit.text()
         try:
             self.spectral = np.load(spectralPth)
-            self.spectral = self.spectral[100:400, 100:400, :]
         except Exception as e:
             QMessageBox.critical(self, "Error", f"Error loading spctral: {str(e)}")
             return
