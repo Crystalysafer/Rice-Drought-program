@@ -94,6 +94,7 @@ graph TD
     C --> D[Binaryzation<br>自动二值化与去噪]
     D --> E[Mask<br>生成掩膜图]
     E --> F[Calculate i-Traits<br>输出性状至 CSV]
+```
 
 ---
 
@@ -125,3 +126,4 @@ pip install numpy opencv-python PyQt5
 ```bash
 python main.py
 ```
+
