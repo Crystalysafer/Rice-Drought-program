@@ -78,6 +78,8 @@
 
 ---
 
+$ \frac{R_{\text{NIR}} - R_{\text{RED}}}{R_{\text{NIR}} + R_{\text{RED}}} $
+
 #### 📌 输出格式  
 
 - 第一行：性状名称（header）  
@@ -119,3 +121,4 @@ pip install numpy opencv-python PyQt5
 ```bash
 python main.py
 ```
+
