@@ -102,6 +102,7 @@ graph TD
 
 ```bash
 python main.py
+```
 ---
 
 ## 📦 依赖环境
@@ -121,9 +122,5 @@ PyQt5
 pip install numpy opencv-python PyQt5
 ```
 
-## ▶️ 运行方法
 
-```bash
-python main.py
-```
 
