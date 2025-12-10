@@ -128,5 +128,27 @@ pip install numpy opencv-python PyQt5
 python main.py
 ```
 
+# 🌱 光谱指数列表 (Spectral Index List)
+
+| **缩写**    | **英文名称**                                | **中文名称**             | **公式**                                                                                              |
+|-------------|---------------------------------------------|--------------------------|-------------------------------------------------------------------------------------------------------|
+| **NDVI**    | Normalized Difference Vegetation Index      | 归一化植被指数             | $$ \text{NDVI} = \frac{R_{\text{NIR}} - R_{\text{RED}}}{R_{\text{NIR}} + R_{\text{RED}}} $$         |
+| **SR**      | Simple Ratio                                | 简化比值指数              | $$ \text{SR} = \frac{R_{\text{NIR}}}{R_{\text{RED}}} $$                                               |
+| **EVI**     | Enhanced Vegetation Index                   | 增强型植被指数            | $$ \text{EVI} = 2.5 \times \frac{R_{\text{NIR}} - R_{\text{RED}}}{R_{\text{NIR}} + 6 \times R_{\text{RED}} - 7.5 \times R_{\text{BLUE}} + 1} $$ |
+| **ARVI**    | Atmospherically Resistant Vegetation Index  | 大气阻抗植被指数          | $$ \text{ARVI} = \frac{R_{\text{NIR}} - (2 \times R_{\text{RED}} - R_{\text{BLUE}})}{R_{\text{NIR}} + (2 \times R_{\text{RED}} - R_{\text{BLUE}})} $$ |
+| **PRI**     | Photochemical Reflectance Index             | 光化学反射指数            | $$ \text{PRI} = \frac{R_{\text{570}} - R_{\text{531}}}{R_{\text{570}} + R_{\text{531}}} $$           |
+| **SIPI**    | Structure Insensitive Pigment Index         | 结构不敏感色素指数        | $$ \text{SIPI} = \frac{R_{\text{800}} - R_{\text{445}}}{R_{\text{800}} + R_{\text{445}}} $$           |
+| **CRI1**    | Carotenoid Reflectance Index 1              | 类胡萝卜素反射指数1       | $$ \text{CRI1} = \frac{1}{R_{\text{510}}} - \frac{1}{R_{\text{550}}} $$                              |
+| **CRI2**    | Carotenoid Reflectance Index 2              | 类胡萝卜素反射指数2       | $$ \text{CRI2} = \frac{1}{R_{\text{510}}} - \frac{1}{R_{\text{700}}} $$                              |
+| **ARI1**    | Anthocyanin Reflectance Index 1             | 花青素反射指数1           | $$ \text{ARI1} = \frac{1}{R_{\text{550}}} - \frac{1}{R_{\text{700}}} $$                              |
+| **ARI2**    | Anthocyanin Reflectance Index 2             | 花青素反射指数2           | $$ \text{ARI2} = R_{\text{800}} \times \left(\frac{1}{R_{\text{550}}} - \frac{1}{R_{\text{700}}}\right) $$ |
+| **REP**     | Red-edge Position Index                     | 红边位置指数              | $$ \text{REP} = \text{argmax}\left( \frac{d}{dx} \left( R_{\text{NIR}} - R_{\text{RED}} \right) \right) $$ |
+| **VOG1**    | Vogelmann Red-edge Index 1                  | Vogelmann 红边指数1       | $$ \text{VOG1} = \frac{R_{\text{740}}}{R_{\text{720}}} $$                                            |
+| **VOG2**    | Vogelmann Red-edge Index 2                  | Vogelmann 红边指数2       | $$ \text{VOG2} = \frac{R_{\text{734}} - R_{\text{747}}}{R_{\text{715}} + R_{\text{726}}} $$          |
+| **VOG3**    | Vogelmann Red-edge Index 3                  | Vogelmann 红边指数3       | $$ \text{VOG3} = \frac{R_{\text{734}} - R_{\text{747}}}{R_{\text{715}} + R_{\text{720}}} $$          |
+
+---
+
+
 
 
