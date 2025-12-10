@@ -98,13 +98,6 @@ graph TD
 
 ---
 
-## ▶️ 运行方法
-
-```bash
-python main.py
-```
----
-
 ## 📦 依赖环境
 
 ### Python 版本
@@ -121,6 +114,15 @@ PyQt5
 ```bash
 pip install numpy opencv-python PyQt5
 ```
+
+
+## ▶️ 运行方法
+
+```bash
+python main.py
+```
+---
+
 
 
 
