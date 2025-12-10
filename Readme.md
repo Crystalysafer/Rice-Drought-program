@@ -89,12 +89,13 @@
 
 ## 🖥 程序界面流程图
 
-1. **Browse** → 选择 `.npy` 光谱文件  
-2. **Load Data** → 加载光谱数据  
-3. **Extraction** → 提取某个波段灰度图  
-4. **Binaryzation** → 自动二值化与去噪  
-5. **Mask** → 生成掩膜图  
-6. **Calculate i-Traits** → 输出性状至 CSV  
+```mermaid
+graph TD
+    A[Browse] --> B[Load Data]
+    B --> C[Extraction]
+    C --> D[Binaryzation]
+    D --> E[Mask]
+    E --> F[Calculate i-Traits]
 
 ---
 
@@ -122,6 +123,7 @@ python main.py
 ```
 $\sqrt{3x-1}+(1+x)^2$
 ---
+
 
 
 
