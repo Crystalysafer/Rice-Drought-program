@@ -59,9 +59,11 @@
 
 ## 🌱 光谱指数列表 (Spectral Index List)
 
+# 🌱 光谱指数列表 (Spectral Index List)
+
 | **缩写**    | **英文名称**                                | **中文名称**             | **公式**                                                                                              |
 |-------------|---------------------------------------------|--------------------------|-------------------------------------------------------------------------------------------------------|
-| **NDVI**    | Normalized Difference Vegetation Index      | 归一化植被指数             | $ \( \text{NDVI} = \frac{R_{\text{NIR}} - R_{\text{RED}}}{R_{\text{NIR}} + R_{\text{RED}}} \)        |
+| **NDVI**    | Normalized Difference Vegetation Index      | 归一化植被指数             | \( \text{NDVI} = \frac{R_{\text{NIR}} - R_{\text{RED}}}{R_{\text{NIR}} + R_{\text{RED}}} \)         |
 | **SR**      | Simple Ratio                                | 简化比值指数              | \( \text{SR} = \frac{R_{\text{NIR}}}{R_{\text{RED}}} \)                                               |
 | **EVI**     | Enhanced Vegetation Index                   | 增强型植被指数            | \( \text{EVI} = 2.5 \times \frac{R_{\text{NIR}} - R_{\text{RED}}}{R_{\text{NIR}} + 6 \times R_{\text{RED}} - 7.5 \times R_{\text{BLUE}} + 1} \) |
 | **ARVI**    | Atmospherically Resistant Vegetation Index  | 大气阻抗植被指数          | \( \text{ARVI} = \frac{R_{\text{NIR}} - (2 \times R_{\text{RED}} - R_{\text{BLUE}})}{R_{\text{NIR}} + (2 \times R_{\text{RED}} - R_{\text{BLUE}})} \) |
@@ -78,6 +80,10 @@
 
 ---
 
+
+---
+
+ba
 $ \frac{R_{\text{NIR}} - R_{\text{RED}}}{R_{\text{NIR}} + R_{\text{RED}}} $
 
 #### 📌 输出格式  
@@ -121,4 +127,5 @@ pip install numpy opencv-python PyQt5
 ```bash
 python main.py
 ```
+
 
