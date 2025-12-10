@@ -89,14 +89,17 @@
 
 ## 🖥 程序界面流程图
 
+## 🖥 程序界面流程图
+
 ```mermaid
 graph TD
-    A[Browse] --> B[Load Data]
-    B --> C[Extraction]
-    C --> D[Binaryzation]
-    D --> E[Mask]
-    E --> F[Calculate i-Traits]
+    A[Browse<br>选择 .npy 光谱文件] --> B[Load Data<br>加载光谱数据]
+    B --> C[Extraction<br>提取某个波段灰度图]
+    C --> D[Binaryzation<br>自动二值化与去噪]
+    D --> E[Mask<br>生成掩膜图]
+    E --> F[Calculate i-Traits<br>输出性状至 CSV]
 
+```
 ---
 
 ## 📦 依赖环境
@@ -123,6 +126,7 @@ python main.py
 ```
 $\sqrt{3x-1}+(1+x)^2$
 ---
+
 
 
 
